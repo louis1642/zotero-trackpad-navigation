@@ -1,0 +1,24 @@
+name: Test
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test gesture handling
+        run: node tests/test-bootstrap.js
+      - name: Build and verify XPI
+        run: |
+          ./build.sh
+          unzip -t out/zotero-trackpad-navigation-1.0.3.xpi
+

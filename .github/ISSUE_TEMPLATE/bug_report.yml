@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a gesture or compatibility problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Please do not attach private PDFs or Zotero library data.
+  - type: input
+    id: zotero-version
+    attributes:
+      label: Zotero version
+      placeholder: 10.0.1
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Mac and trackpad
+      description: Include whether this is a built-in or external trackpad.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: debug-output
+    attributes:
+      label: TrackpadNavigation debug lines
+      description: Include only lines beginning with [TrackpadNavigation].
+      render: text
+

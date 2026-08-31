@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Zotero Trackpad Navigation",
+  "version": "1.0.3",
+  "description": "Navigate Zotero reader location history with macOS two-finger swipes.",
+  "author": "Luigi Catello",
+  "applications": {
+    "zotero": {
+      "id": "zotero-trackpad-navigation@luigicatello",
+      "update_url": "https://raw.githubusercontent.com/louis1642/zotero-trackpad-navigation/main/updates.json",
+      "strict_min_version": "10.0.1",
+      "strict_max_version": "10.0.1"
+    }
+  }
+}
