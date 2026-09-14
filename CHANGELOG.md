@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4 - 2026-09-14
+
+- Add Zotero 10.0.2 to the supported version range.
+- Verify the reader lifecycle and semantic history APIs against Zotero 10.0.2.
+
 ## 1.0.3 - 2026-08-31
 
 - Listen for native swipe gestures at both Gecko event locations used by the

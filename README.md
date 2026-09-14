@@ -11,13 +11,13 @@ tabs and split views. It calls the same semantic `navigateBack()` and
 `navigateForward()` operations as Zotero's built-in reader shortcuts. It does
 not create its own history or approximate navigation with page changes.
 
-Version 1.0.3 has been tested with a built-in MacBook trackpad on Zotero
-10.0.1.
+Version 1.0.4 supports Zotero 10.0.1 through 10.0.2. Its reader lifecycle and
+history APIs have been verified against Zotero 10.0.2.
 
 ## Requirements
 
 - macOS with a Mac trackpad or compatible trackpad
-- Zotero 10.0.1
+- Zotero 10.0.1 or 10.0.2
 
 The initial release is deliberately restricted to the Zotero version family
 against which it was developed and tested. Its history calls are internal
@@ -25,7 +25,7 @@ Zotero reader APIs and should be rechecked before widening compatibility.
 
 ## Installation
 
-1. Download `zotero-trackpad-navigation-1.0.3.xpi` from the latest GitHub
+1. Download `zotero-trackpad-navigation-1.0.4.xpi` from the latest GitHub
    release.
 2. In Zotero, choose **Tools → Plugins**.
 3. Drag the `.xpi` file into the Plugins window (or use **Install Plugin From
@@ -57,7 +57,7 @@ not inspect wheel events, so ordinary vertical/diagonal scrolling and pinch
 zoom are outside its event path.
 
 Zotero's reader API used here is internal rather than a formally stable public
-API. Compatibility is therefore capped at Zotero 10.0.1. No preference pane or
+API. Compatibility is therefore capped at Zotero 10.0.2. No preference pane or
 direction-reversal option is included in this MVP.
 
 ## Development and verification
