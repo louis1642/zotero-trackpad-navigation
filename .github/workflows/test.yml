@@ -20,5 +20,4 @@ jobs:
       - name: Build and verify XPI
         run: |
           ./build.sh
-          unzip -t out/zotero-trackpad-navigation-1.0.3.xpi
-
+          unzip -t out/zotero-trackpad-navigation-1.0.4.xpi
