@@ -3,12 +3,12 @@
     "zotero-trackpad-navigation@luigicatello": {
       "updates": [
         {
-          "version": "1.0.4",
-          "update_link": "https://github.com/louis1642/zotero-trackpad-navigation/releases/download/v1.0.4/zotero-trackpad-navigation-1.0.4.xpi",
+          "version": "1.0.5",
+          "update_link": "https://github.com/louis1642/zotero-trackpad-navigation/releases/download/v1.0.5/zotero-trackpad-navigation-1.0.5.xpi",
           "applications": {
             "zotero": {
               "strict_min_version": "10.0.1",
-              "strict_max_version": "10.0.2"
+              "strict_max_version": "10.0.9"
             }
           }
         }

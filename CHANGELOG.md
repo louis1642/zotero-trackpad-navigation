@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.5 - 2026-11-16
+
+- Add Zotero 10.0.9 to the supported version range.
+- Verify the reader lifecycle and semantic history APIs against Zotero 10.0.9.
+- Make CI verify the artifact path reported by the build script.
+
 ## 1.0.4 - 2026-09-14
 
 - Add Zotero 10.0.2 to the supported version range.

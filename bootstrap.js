@@ -19,7 +19,7 @@ function reportError(error) {
 
 /**
  * These are Zotero's semantic reader-history operations, not page changes and
- * not a plugin-owned history. In Zotero 10.0.1–10.0.2 they are the same
+ * not a plugin-owned history. In Zotero 10.0.1–10.0.9 they are the same
  * operations called by Reader's Cmd-[ / Cmd-Left and Cmd-] / Cmd-Right handler:
  * resource/reader/reader.js, KeyboardManager.handleKeyDown(), which calls
  * this._reader.navigateBack()/navigateForward(). The Zotero ReaderInstance
